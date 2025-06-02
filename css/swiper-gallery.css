@@ -50,10 +50,10 @@
         --swiper-pagination-bullet-vertical-gap: 6px;
     }
     .gallery>.swiper>.swiper-button-prev{
-        transform: translate(-10px);
+        transform: translateY(15px) !important;
     }
     .gallery>.swiper>.swiper-button-next{
-        transform: translateX(30px);
+        transform: translateX(-1100px);
     }
     .gallery>.swiper>.swiper-button-prev:after,
     .gallery>.swiper>.swiper-button-next:after {
@@ -62,12 +62,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-right: 120px;
-        margin-left: 120px;
+        margin-right: 100px;
+        margin-left: 100px;
     }
 
     .gallery>.swiper>.swiper-button-prev:after {
-        margin-right: 30px;
+        margin-right: 70px;
     }
 
     .gallery>.swiper>.swiper-button-next:after {
@@ -200,24 +200,7 @@
         --swiper-pagination-bullet-vertical-gap: 6px;
     }
 
-    .gallery>.swiper>.swiper-button-prev:after,
-    .gallery>.swiper>.swiper-button-next:after {
-        --swiper-navigation-size: 35px;
-        color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 120px;
-        margin-left: 120px;
-    }
 
-    .gallery>.swiper>.swiper-button-prev:after {
-        margin-right: -20px;
-    }
-
-    .gallery>.swiper>.swiper-button-next:after {
-        margin-left: 20px;
-    }
 }
 
 @media (min-width: 560px) and (max-width: 768px) {
